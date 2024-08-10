@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ejercicio 4.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Datos Personales</h1>
+    <form action="">
+        <div class="entrys">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" id="nombre" required>
+        </div>        
+        <div class="entrys">
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" name="apellido" id="apellido" required>
+        </div>
+        <div class="entrys">
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="entrys">
+            <label for="nacimiento">Fecha de Nacimiento:</label><br>
+            <input type="date" name="nacimiento" id="nacimiento" required>
+        </div>
+        <div class="entrys">
+            <label for="pais">Pais de Residencia:</label><br>
+            <input type="text" name="pais" id="pais" required>
+        </div>
+        <div class="boton">
+            <button>Enviar</button>
+        </div>
+    </form>     
+    <button onclick="ModoOscuro()" id="boton-oscuro">Estilo 1</button>
+    <script src="Ejercicio 4.js"></script>
+</body>
+</html>

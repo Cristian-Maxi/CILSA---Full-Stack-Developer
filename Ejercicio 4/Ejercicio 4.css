@@ -1,0 +1,122 @@
+body {
+    background: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    width: 20%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}
+
+.entrys {
+    margin: 20px;
+}
+
+.entrys label {
+    margin-bottom: 50px;
+}
+
+.entrys input {
+    width: 98%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.boton {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.boton button {
+    color: aliceblue;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton button:hover {
+    color: #333;
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+#boton-oscuro {
+    display: block;
+    margin: 30px auto;
+    width: 5%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #666;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+#boton-oscuro:hover {
+    color: #333;
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
+}
+
+/* Modo Oscuro */
+
+body.modo-oscuro {
+    background: #333;
+    color: #fff;
+}
+
+body.modo-oscuro {
+    background: #333;
+    color: #fff;
+}
+
+form.modo-oscuro {
+    background-color: #444;
+    border: 1px solid #fff;
+}
+
+.entrys input.modo-oscuro {
+    background-color: #555;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.boton button.modo-oscuro {
+    background-color: #666;
+    border: 2px solid #fff;
+}
+
+.boton button.modo-oscuro:hover {
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+#boton-oscuro.modo-oscuro {
+    background-color: #fff;
+    color: #444;
+}
+
+#boton-oscuro.modo-oscuro:hover {
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
+}
