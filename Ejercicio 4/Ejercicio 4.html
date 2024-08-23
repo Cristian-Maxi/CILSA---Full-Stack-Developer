@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Formulario de Datos Personales</h1>
-    <form action="">
+    <form action="" onsubmit="return ComprobarCampos(event)">
         <div class="entrys">
             <label for="nombre">Nombre:</label><br>
             <input type="text" name="nombre" id="nombre" required>
@@ -30,7 +30,7 @@
             <input type="text" name="pais" id="pais" required>
         </div>
         <div class="boton">
-            <button>Enviar</button>
+            <button type="submit">Enviar</button>
         </div>
     </form>     
     <button onclick="ModoOscuro()" id="boton-oscuro">Estilo 1</button>
