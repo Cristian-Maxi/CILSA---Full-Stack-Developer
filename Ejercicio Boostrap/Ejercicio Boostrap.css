@@ -1,0 +1,52 @@
+body {
+    background: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boton-oscuro:hover {
+    color: #333;
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
+}
+
+/* Modo Oscuro */
+
+body.modo-oscuro {
+    background: #333;
+    color: #fff;
+}
+
+form.modo-oscuro {
+    background-color: #444;
+    border: 1px solid #fff;
+}
+
+.entrys input.modo-oscuro {
+    background-color: #555;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.boton button.modo-oscuro {
+    background-color: #666;
+    border: 2px solid #fff;
+}
+
+.boton button.modo-oscuro:hover {
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+#boton-oscuro.modo-oscuro {
+    background-color: #fff;
+    color: #444;
+}
+
+#boton-oscuro.modo-oscuro:hover {
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
+}
