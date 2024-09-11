@@ -1,6 +1,15 @@
-body {
-    background: gainsboro;
-    font-family: Arial, Helvetica, sans-serif;
+html body {
+    background-image: linear-gradient(to right top, #7a737a, #917c94, #a685b0, #b98fce, #ca9aee);
+    min-height: 97vh;
+    margin: 5px;
+}
+
+h1 {
+    background-color: rgb(255, 254, 254);
+}
+
+form {
+    background: rgb(205, 184, 184);
 }
 
 #boton-oscuro:hover {
@@ -20,6 +29,11 @@ body.modo-oscuro {
 form.modo-oscuro {
     background-color: #444;
     border: 1px solid #fff;
+}
+
+h1.modo-oscuro {
+    color: #333;
+    background-color: rgb(249, 224, 5);
 }
 
 .entrys input.modo-oscuro {
